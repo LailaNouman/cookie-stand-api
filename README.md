@@ -1,24 +1,20 @@
-# api-quick-start
+# LAB - API Deployment
+## Project: cookie-stand-api
+## Author: Laila Nouman
+### Links and resources
+- Live URL for heroku: https://cookiestandapi.herokuapp.com/
 
-Template Project for starting up CRUD API with Django Rest Framework
+### Setup
+- PORT: 5432
+- Database URL: postgres://kclythdn:zX0DGnqr2e8i9hxjjGk1ES1u60UIWKAE@abul.db.elephantsql.com/kclythdn
 
-## Customization Steps
+### How to run your app:
+- From heroku you can open the app and put your endpoint.
+- Or from "python .\manage.py runserver"
 
-- DO NOT migrate yet
-- add additional dependencies as needed
-  - Re-export requirements.txt as needed
-- change `things` folder to the app name of your choice
-- Search through entire code base for `Thing`,`Things` and `things` to modify code to use your resource
-  - `project/settings.py`
-  - `project/urls.py`
-  - App's files
-    - `views.py`
-    - `urls.py`
-    - `admin.py`
-    - `serializers.py`
-    - `permissions.py`
-- Update ThingModel with fields you need
-  - Make sure to update other modules that would be affected by Model customizations. E.g. serializers, tests, etc.
-- Rename `project/.env.sample` to `.env` and update as needed
-- Run makemigrations and migrate commands
-- Optional: Update `api_tester.py`
+### How to use your library:
+No library.
+
+### Tests
+Example to test by postman:
+![cookie](her.png)
